@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CB0D0F2A8F8F8000581D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D0E2A8F8F8000581D46 /* AppDelegate.swift */; };
+		42CB0D112A8F8F8000581D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D102A8F8F8000581D46 /* SceneDelegate.swift */; };
+		42CB0D132A8F8F8000581D46 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D122A8F8F8000581D46 /* MainViewController.swift */; };
+		42CB0D162A8F8F8000581D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D142A8F8F8000581D46 /* Main.storyboard */; };
+		42CB0D182A8F8F8100581D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D172A8F8F8100581D46 /* Assets.xcassets */; };
+		42CB0D1B2A8F8F8100581D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D192A8F8F8100581D46 /* LaunchScreen.storyboard */; };
+		42CB0D252A8F93E600581D46 /* TransferTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D232A8F93E600581D46 /* TransferTitleCell.swift */; };
+		42CB0D262A8F93E600581D46 /* TransferTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D242A8F93E600581D46 /* TransferTitleCell.xib */; };
+		42CB0D292A8F94EF00581D46 /* TransferItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D272A8F94EF00581D46 /* TransferItemCell.swift */; };
+		42CB0D2A2A8F94EF00581D46 /* TransferItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D282A8F94EF00581D46 /* TransferItemCell.xib */; };
+		42CB0D2F2A8F9B1F00581D46 /* TransferHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D2E2A8F9B1F00581D46 /* TransferHeaderView.swift */; };
+		42CB0D322A8F9B3D00581D46 /* TransferHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D312A8F9B3D00581D46 /* TransferHeaderView.xib */; };
+		42CB0D392A8FA36100581D46 /* BankAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D382A8FA36100581D46 /* BankAccountResponse.swift */; };
+		42CB0D402A8FA46600581D46 /* BankAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D3F2A8FA46600581D46 /* BankAccountService.swift */; };
+		42CB0D422A8FA4B800581D46 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D412A8FA4B800581D46 /* MainPresenter.swift */; };
+		42CB0D442A8FA85C00581D46 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D432A8FA85C00581D46 /* MainModel.swift */; };
+		42CB0D482A8FB81E00581D46 /* TransferBankNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D462A8FB81E00581D46 /* TransferBankNameCell.swift */; };
+		42CB0D492A8FB81E00581D46 /* TransferBankNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D472A8FB81E00581D46 /* TransferBankNameCell.xib */; };
+		42CB0D4B2A8FC32C00581D46 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D4A2A8FC32C00581D46 /* Colors.swift */; };
+		42CB0D502A8FD54B00581D46 /* TransferSpaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D4E2A8FD54B00581D46 /* TransferSpaceCell.swift */; };
+		42CB0D512A8FD54B00581D46 /* TransferSpaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CB0D4F2A8FD54B00581D46 /* TransferSpaceCell.xib */; };
+		42CB0D532A90EAB600581D46 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D522A90EAB600581D46 /* Strings.swift */; };
+		42CB0D5A2A90F23B00581D46 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB0D592A90F23B00581D46 /* ServiceLocator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42CB0D0B2A8F8F8000581D46 /* MintosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CB0D0E2A8F8F8000581D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42CB0D102A8F8F8000581D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42CB0D122A8F8F8000581D46 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		42CB0D152A8F8F8000581D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42CB0D172A8F8F8100581D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42CB0D1A2A8F8F8100581D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42CB0D1C2A8F8F8100581D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CB0D232A8F93E600581D46 /* TransferTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferTitleCell.swift; sourceTree = "<group>"; };
+		42CB0D242A8F93E600581D46 /* TransferTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferTitleCell.xib; sourceTree = "<group>"; };
+		42CB0D272A8F94EF00581D46 /* TransferItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferItemCell.swift; sourceTree = "<group>"; };
+		42CB0D282A8F94EF00581D46 /* TransferItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferItemCell.xib; sourceTree = "<group>"; };
+		42CB0D2E2A8F9B1F00581D46 /* TransferHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferHeaderView.swift; sourceTree = "<group>"; };
+		42CB0D312A8F9B3D00581D46 /* TransferHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferHeaderView.xib; sourceTree = "<group>"; };
+		42CB0D382A8FA36100581D46 /* BankAccountResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountResponse.swift; sourceTree = "<group>"; };
+		42CB0D3F2A8FA46600581D46 /* BankAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountService.swift; sourceTree = "<group>"; };
+		42CB0D412A8FA4B800581D46 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		42CB0D432A8FA85C00581D46 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		42CB0D462A8FB81E00581D46 /* TransferBankNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferBankNameCell.swift; sourceTree = "<group>"; };
+		42CB0D472A8FB81E00581D46 /* TransferBankNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferBankNameCell.xib; sourceTree = "<group>"; };
+		42CB0D4A2A8FC32C00581D46 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		42CB0D4E2A8FD54B00581D46 /* TransferSpaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSpaceCell.swift; sourceTree = "<group>"; };
+		42CB0D4F2A8FD54B00581D46 /* TransferSpaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferSpaceCell.xib; sourceTree = "<group>"; };
+		42CB0D522A90EAB600581D46 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		42CB0D592A90F23B00581D46 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CB0D082A8F8F8000581D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CB0D022A8F8F8000581D46 = {
+			isa = PBXGroup;
+			children = (
+				42CB0D0D2A8F8F8000581D46 /* MintosApp */,
+				42CB0D0C2A8F8F8000581D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42CB0D0C2A8F8F8000581D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D0B2A8F8F8000581D46 /* MintosApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CB0D0D2A8F8F8000581D46 /* MintosApp */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D582A90EF2F00581D46 /* Support */,
+				42CB0D562A90EF0700581D46 /* Screens */,
+				42CB0D4C2A8FC33300581D46 /* Constants */,
+				42CB0D3E2A8FA45700581D46 /* Services */,
+				42CB0D372A8FA35700581D46 /* Models */,
+				42CB0D2D2A8F9AFF00581D46 /* Views */,
+			);
+			path = MintosApp;
+			sourceTree = "<group>";
+		};
+		42CB0D222A8F93AC00581D46 /* TransferCells */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D4D2A8FD47C00581D46 /* TransferSpace */,
+				42CB0D452A8FB7FF00581D46 /* TransferBankName */,
+				42CB0D2C2A8F9AC100581D46 /* TransferItem */,
+				42CB0D2B2A8F9AAE00581D46 /* TransferTitle */,
+			);
+			path = TransferCells;
+			sourceTree = "<group>";
+		};
+		42CB0D2B2A8F9AAE00581D46 /* TransferTitle */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D232A8F93E600581D46 /* TransferTitleCell.swift */,
+				42CB0D242A8F93E600581D46 /* TransferTitleCell.xib */,
+			);
+			path = TransferTitle;
+			sourceTree = "<group>";
+		};
+		42CB0D2C2A8F9AC100581D46 /* TransferItem */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D272A8F94EF00581D46 /* TransferItemCell.swift */,
+				42CB0D282A8F94EF00581D46 /* TransferItemCell.xib */,
+			);
+			path = TransferItem;
+			sourceTree = "<group>";
+		};
+		42CB0D2D2A8F9AFF00581D46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D302A8F9B2900581D46 /* TransferHeaders */,
+				42CB0D222A8F93AC00581D46 /* TransferCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42CB0D302A8F9B2900581D46 /* TransferHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D2E2A8F9B1F00581D46 /* TransferHeaderView.swift */,
+				42CB0D312A8F9B3D00581D46 /* TransferHeaderView.xib */,
+			);
+			path = TransferHeaders;
+			sourceTree = "<group>";
+		};
+		42CB0D372A8FA35700581D46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D382A8FA36100581D46 /* BankAccountResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42CB0D3E2A8FA45700581D46 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D3F2A8FA46600581D46 /* BankAccountService.swift */,
+				42CB0D592A90F23B00581D46 /* ServiceLocator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		42CB0D452A8FB7FF00581D46 /* TransferBankName */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D462A8FB81E00581D46 /* TransferBankNameCell.swift */,
+				42CB0D472A8FB81E00581D46 /* TransferBankNameCell.xib */,
+			);
+			path = TransferBankName;
+			sourceTree = "<group>";
+		};
+		42CB0D4C2A8FC33300581D46 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D4A2A8FC32C00581D46 /* Colors.swift */,
+				42CB0D522A90EAB600581D46 /* Strings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		42CB0D4D2A8FD47C00581D46 /* TransferSpace */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D4E2A8FD54B00581D46 /* TransferSpaceCell.swift */,
+				42CB0D4F2A8FD54B00581D46 /* TransferSpaceCell.xib */,
+			);
+			path = TransferSpace;
+			sourceTree = "<group>";
+		};
+		42CB0D562A90EF0700581D46 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D142A8F8F8000581D46 /* Main.storyboard */,
+				42CB0D572A90EF1400581D46 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		42CB0D572A90EF1400581D46 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D122A8F8F8000581D46 /* MainViewController.swift */,
+				42CB0D432A8FA85C00581D46 /* MainModel.swift */,
+				42CB0D412A8FA4B800581D46 /* MainPresenter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		42CB0D582A90EF2F00581D46 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				42CB0D1C2A8F8F8100581D46 /* Info.plist */,
+				42CB0D0E2A8F8F8000581D46 /* AppDelegate.swift */,
+				42CB0D102A8F8F8000581D46 /* SceneDelegate.swift */,
+				42CB0D172A8F8F8100581D46 /* Assets.xcassets */,
+				42CB0D192A8F8F8100581D46 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42CB0D0A2A8F8F8000581D46 /* MintosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CB0D1F2A8F8F8100581D46 /* Build configuration list for PBXNativeTarget "MintosApp" */;
+			buildPhases = (
+				42CB0D072A8F8F8000581D46 /* Sources */,
+				42CB0D082A8F8F8000581D46 /* Frameworks */,
+				42CB0D092A8F8F8000581D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintosApp;
+			productName = MintosApp;
+			productReference = 42CB0D0B2A8F8F8000581D46 /* MintosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42CB0D032A8F8F8000581D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					42CB0D0A2A8F8F8000581D46 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 42CB0D062A8F8F8000581D46 /* Build configuration list for PBXProject "MintosApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42CB0D022A8F8F8000581D46;
+			productRefGroup = 42CB0D0C2A8F8F8000581D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42CB0D0A2A8F8F8000581D46 /* MintosApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CB0D092A8F8F8000581D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB0D1B2A8F8F8100581D46 /* LaunchScreen.storyboard in Resources */,
+				42CB0D262A8F93E600581D46 /* TransferTitleCell.xib in Resources */,
+				42CB0D492A8FB81E00581D46 /* TransferBankNameCell.xib in Resources */,
+				42CB0D2A2A8F94EF00581D46 /* TransferItemCell.xib in Resources */,
+				42CB0D182A8F8F8100581D46 /* Assets.xcassets in Resources */,
+				42CB0D162A8F8F8000581D46 /* Main.storyboard in Resources */,
+				42CB0D322A8F9B3D00581D46 /* TransferHeaderView.xib in Resources */,
+				42CB0D512A8FD54B00581D46 /* TransferSpaceCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CB0D072A8F8F8000581D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB0D292A8F94EF00581D46 /* TransferItemCell.swift in Sources */,
+				42CB0D4B2A8FC32C00581D46 /* Colors.swift in Sources */,
+				42CB0D392A8FA36100581D46 /* BankAccountResponse.swift in Sources */,
+				42CB0D2F2A8F9B1F00581D46 /* TransferHeaderView.swift in Sources */,
+				42CB0D482A8FB81E00581D46 /* TransferBankNameCell.swift in Sources */,
+				42CB0D132A8F8F8000581D46 /* MainViewController.swift in Sources */,
+				42CB0D5A2A90F23B00581D46 /* ServiceLocator.swift in Sources */,
+				42CB0D532A90EAB600581D46 /* Strings.swift in Sources */,
+				42CB0D422A8FA4B800581D46 /* MainPresenter.swift in Sources */,
+				42CB0D252A8F93E600581D46 /* TransferTitleCell.swift in Sources */,
+				42CB0D502A8FD54B00581D46 /* TransferSpaceCell.swift in Sources */,
+				42CB0D402A8FA46600581D46 /* BankAccountService.swift in Sources */,
+				42CB0D0F2A8F8F8000581D46 /* AppDelegate.swift in Sources */,
+				42CB0D442A8FA85C00581D46 /* MainModel.swift in Sources */,
+				42CB0D112A8F8F8000581D46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42CB0D142A8F8F8000581D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CB0D152A8F8F8000581D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42CB0D192A8F8F8100581D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CB0D1A2A8F8F8100581D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CB0D1D2A8F8F8100581D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42CB0D1E2A8F8F8100581D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42CB0D202A8F8F8100581D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBF3U4Y3Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MintosApp/Support/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintos.test.MintosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42CB0D212A8F8F8100581D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBF3U4Y3Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MintosApp/Support/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintos.test.MintosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CB0D062A8F8F8000581D46 /* Build configuration list for PBXProject "MintosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CB0D1D2A8F8F8100581D46 /* Debug */,
+				42CB0D1E2A8F8F8100581D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CB0D1F2A8F8F8100581D46 /* Build configuration list for PBXNativeTarget "MintosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CB0D202A8F8F8100581D46 /* Debug */,
+				42CB0D212A8F8F8100581D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42CB0D032A8F8F8000581D46 /* Project object */;
+}
